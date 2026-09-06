@@ -1,0 +1,255 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		100000000000000000000001 /* KidSketchbookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000101 /* KidSketchbookApp.swift */; };
+		100000000000000000000002 /* SketchPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000102 /* SketchPage.swift */; };
+		100000000000000000000003 /* DrawingStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000103 /* DrawingStore.swift */; };
+		100000000000000000000004 /* PageArtwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000104 /* PageArtwork.swift */; };
+		100000000000000000000005 /* SketchbookLibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000105 /* SketchbookLibraryView.swift */; };
+		100000000000000000000006 /* PencilCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000106 /* PencilCanvas.swift */; };
+		100000000000000000000007 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000107 /* DrawingView.swift */; };
+		100000000000000000000008 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000109 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		100000000000000000000101 /* KidSketchbookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KidSketchbookApp.swift; sourceTree = "<group>"; };
+		100000000000000000000102 /* SketchPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SketchPage.swift; sourceTree = "<group>"; };
+		100000000000000000000103 /* DrawingStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingStore.swift; sourceTree = "<group>"; };
+		100000000000000000000104 /* PageArtwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageArtwork.swift; sourceTree = "<group>"; };
+		100000000000000000000105 /* SketchbookLibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SketchbookLibraryView.swift; sourceTree = "<group>"; };
+		100000000000000000000106 /* PencilCanvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PencilCanvas.swift; sourceTree = "<group>"; };
+		100000000000000000000107 /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
+		100000000000000000000108 /* KidSketchbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = KidSketchbook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		100000000000000000000109 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		100000000000000000000302 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				100000000000000000000008 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		100000000000000000000201 = {
+			isa = PBXGroup;
+			children = (
+				100000000000000000000202 /* KidSketchbook */,
+				100000000000000000000208 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		100000000000000000000202 /* KidSketchbook */ = {
+			isa = PBXGroup;
+			children = (
+				100000000000000000000101 /* KidSketchbookApp.swift */,
+				100000000000000000000109 /* Assets.xcassets */,
+				100000000000000000000203 /* Models */,
+				100000000000000000000204 /* Services */,
+				100000000000000000000205 /* Views */,
+			);
+			path = KidSketchbook;
+			sourceTree = "<group>";
+		};
+		100000000000000000000203 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				100000000000000000000102 /* SketchPage.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		100000000000000000000204 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				100000000000000000000103 /* DrawingStore.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		100000000000000000000205 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				100000000000000000000104 /* PageArtwork.swift */,
+				100000000000000000000105 /* SketchbookLibraryView.swift */,
+				100000000000000000000106 /* PencilCanvas.swift */,
+				100000000000000000000107 /* DrawingView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		100000000000000000000208 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				100000000000000000000108 /* KidSketchbook.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		100000000000000000000401 /* KidSketchbook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 100000000000000000000501 /* Build configuration list for PBXNativeTarget "KidSketchbook" */;
+			buildPhases = (
+				100000000000000000000301 /* Sources */,
+				100000000000000000000302 /* Frameworks */,
+				100000000000000000000303 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KidSketchbook;
+			productName = KidSketchbook;
+			productReference = 100000000000000000000108 /* KidSketchbook.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		100000000000000000000402 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					100000000000000000000401 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 100000000000000000000502 /* Build configuration list for PBXProject "KidSketchbook" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 100000000000000000000201;
+			productRefGroup = 100000000000000000000208 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				100000000000000000000401 /* KidSketchbook */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		100000000000000000000303 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		100000000000000000000301 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				100000000000000000000001 /* KidSketchbookApp.swift in Sources */,
+				100000000000000000000002 /* SketchPage.swift in Sources */,
+				100000000000000000000003 /* DrawingStore.swift in Sources */,
+				100000000000000000000004 /* PageArtwork.swift in Sources */,
+				100000000000000000000005 /* SketchbookLibraryView.swift in Sources */,
+				100000000000000000000006 /* PencilCanvas.swift in Sources */,
+				100000000000000000000007 /* DrawingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		100000000000000000000601 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UU36HJ9HSX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPHPhotoLibraryAddUsageDescription = "Save completed coloring pages to Photos.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.KidSketchbook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		100000000000000000000602 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UU36HJ9HSX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPHPhotoLibraryAddUsageDescription = "Save completed coloring pages to Photos.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.KidSketchbook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		100000000000000000000603 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		100000000000000000000604 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		100000000000000000000501 /* Build configuration list for PBXNativeTarget "KidSketchbook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				100000000000000000000601 /* Debug */,
+				100000000000000000000602 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		100000000000000000000502 /* Build configuration list for PBXProject "KidSketchbook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				100000000000000000000603 /* Debug */,
+				100000000000000000000604 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 100000000000000000000402 /* Project object */;
+}

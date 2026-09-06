@@ -1,0 +1,48 @@
+# Xcode build products
+build/
+DerivedData/
+*.xcuserstate
+*.xccheckout
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Local Xcode user data (keep shared schemes)
+xcuserdata/
+
+# Project-local build/output directories
+work/
+outputs/
+
+# Swift Package Manager
+.swiftpm/
+.build/
+Packages/
+
+# CocoaPods / Carthage
+Pods/
+Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# macOS
+.DS_Store
+*.swp
+*~
+.idea/
+.vscode/
+
+# Secrets
+.env
+.env.*
+*.pem
+*.p12
+*.mobileprovision
+*.xcconfig
+!*.example.xcconfig
