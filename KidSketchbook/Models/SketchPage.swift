@@ -1,9 +1,14 @@
 import SwiftUI
+import PencilKit
 
 enum DrawingMode: String, CaseIterable, Identifiable {
-    case pencilOnly = "Pencil only"
-    case freehand = "Freehand"
+    case finger = "Finger"
+    case pencil = "Pencil"
     var id: String { rawValue }
+
+    var canvasPolicy: PKCanvasView.DrawingPolicy {
+        self == .pencil ? .pencilOnly : .anyInput
+    }
 }
 
 enum SketchArt: String, CaseIterable {
