@@ -1,0 +1,14 @@
+{
+  "name": "Kid Sketchbook",
+  "user": "ubuntu",
+  "install": "./scripts/cloud-agent-install.sh",
+  "egressAllowlist": [
+    "registry.npmjs.org"
+  ],
+  "mcpServerAllowlist": [
+    {
+      "name": "graft",
+      "command": "graft"
+    }
+  ]
+}

@@ -39,3 +39,24 @@ re-read whole files.
 After big code changes, refresh the graph with `graft build` (deterministic,
 no API key, $0).
 <!-- graft:end -->
+
+## Cursor Cloud specific instructions
+
+Cloud Agents run on Linux. This app targets iPad (iOS 17, SwiftUI, PencilKit) and **cannot be built or run in the simulator here** — there is no Xcode on Linux.
+
+### What agents can do on Cloud
+
+- Edit Swift source under `KidSketchbook/` using graft for navigation (`graft ask`, `graft grep`, `graft skeleton`, `graft callers`).
+- Refresh the code graph after edits: `graft build` (also runs during environment `install`).
+- Sanity-check the environment: `./scripts/cloud-agent-verify.sh`.
+- Update `CHANGELOG.md` for every file change (see `.cursor/rules/document-changes.mdc`).
+
+### Build and run (macOS only)
+
+On a Mac with Xcode 15+:
+
+1. Open `KidSketchbook.xcodeproj`.
+2. Set your team and a unique bundle ID in Signing & Capabilities.
+3. Select an iPad simulator (or a device) and press Run.
+
+Use **Freehand** mode in the simulator when Apple Pencil is unavailable. After Swift changes, run the app on macOS to confirm drawing, save, and Photos export still work.
