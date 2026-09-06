@@ -1,18 +1,19 @@
 # Kid Sketchbook
 
-An iPad-only SwiftUI coloring book. Kids pick a themed page, color the outline with Apple Pencil or a finger, and save the result.
+An iPad-only SwiftUI coloring book. Kids pick a themed page, color the outline with a finger or Apple Pencil, and save the result.
 
 Source: [github.com/birajpoddar/HiyaiPadSketchApp](https://github.com/birajpoddar/HiyaiPadSketchApp)
 
 ## What is included
 
 - Eight themed books (24 pages): Rainbow Day, Ocean Friends, Space Adventure, Secret Garden, Safari Day, Cloud Castle, Dino Land, and Blank Page.
-- Library → category → page, then a PencilKit canvas over a coloring template.
-- **Pencil only** or **Freehand** (finger, mouse, or Apple Pencil).
-- Colors, brush sizes, pen / marker / pencil / crayon / fountain pen, eraser, undo, redo.
-- Drawings save automatically to the app documents folder and restore when the page is opened again.
-- **Save picture** writes the template plus marks to Photos (permission is requested on first save).
-- **Start over** asks before erasing the page.
+- Every page is a black outline drawing (rainbow, whale, rocket, flower, and so on) that always shows, including in the page picker.
+- Library → book → picture, then a PencilKit canvas over the outline.
+- **Finger** (default, works in the simulator) or **Pencil** (Apple Pencil only).
+- Large color dots, Marker / Pen / Pencil, three brush sizes, eraser, undo, and redo.
+- Drawings save automatically and restore when the page is opened again.
+- **Save** writes the outline plus coloring to Photos.
+- **Start over** asks before erasing.
 
 ## Open and run
 
@@ -21,9 +22,7 @@ Source: [github.com/birajpoddar/HiyaiPadSketchApp](https://github.com/birajpodda
 3. Choose an iPad simulator, or connect an iPad.
 4. Press Run.
 
-You can test in the simulator without a paid developer membership. A physical iPad needs a free Apple ID for signing. App Store distribution needs the Apple Developer Program.
-
-Use **Freehand** in the simulator if you do not have Apple Pencil.
+You can test in the simulator without a paid developer membership. Leave the mode on **Finger** so a mouse or trackpad can color. On a real iPad, switch to **Pencil** if you want Apple Pencil only.
 
 ## Project layout
 
